@@ -86,3 +86,79 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+
+
+
+var lengthFinances = String(finances.length);
+console.log("Financial Analysis")
+console.log("------------------------")
+
+// The total number of months included in the dataset.
+
+console.log("Total Months: " + lengthFinances);
+
+
+
+// The Total amount of money.
+
+var sum = 0;
+
+for (var i = 0; i < finances.length; i++) {
+  // console.log(finances[i]);
+  sum += finances[i][1];
+}
+console.log("Total: $" + sum);
+
+
+
+
+// You will need to track what the total change in profits is from month to month and then find the average.
+
+var sum = 0;
+
+for (var i = 0; i < finances[i][1]; ++i) {
+
+  sum = finances[i][1] + finances[i][1];
+
+  avg = sum / lengthFinances;
+  }
+roundHundred = Math.round(100*avg)/100;
+
+console.log("Average Change: $" + roundHundred);
+
+
+
+
+
+// The greatest increase in profits (date and amount) over the entire period.
+
+// The greatest decrease in losses (date and amount) over the entire period.
+
+var maximumMonth = {
+  month: '',
+  profit: 0,
+};
+
+var minMonth = {
+  month: '',
+  profit: 0,
+};
+
+finances.forEach((month) => {
+  if (month[1] > maximumMonth.profit) {
+    maximumMonth.month = month[0];
+    maximumMonth.profit = month[1];
+  }
+
+  if (month[1] < minMonth.profit) {
+    minMonth.month = month[0];
+    minMonth.profit = month[1];
+  }
+});
+
+console.log('Greatest Increase in Profits/Losses: ', maximumMonth);
+console.log('Greatest Decrease in Profits/Losses: ', minMonth);
+
+// End!
+
