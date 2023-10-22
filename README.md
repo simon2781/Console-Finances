@@ -43,6 +43,7 @@ Email: simon2781@gmail.com
 # Project Link:
 
 GitHub Repository: https://github.com/simon2781/Console-Finances
+
 GitHub URL: https://simon2781.github.io/Console-Finances/
 
 # Acknowledgement
@@ -50,10 +51,15 @@ GitHub URL: https://simon2781.github.io/Console-Finances/
 I have used quite a few resources to research for and complete my project, I've listed them below:
 
 https://www.w3schools.com/ 
+
 https://www.stackoverflow.com/
+
 https://www.javascripter.net
+
 https://www.geeksforgeeks.org
+
 https://www.freecodecamp.org
+
 https://www.javascripttutorial.net
 https://www.jsfiddle.net
 https://www.scaler.com
